@@ -1,0 +1,3 @@
+﻿namespace Qrame.Core.Library
+{
+}
