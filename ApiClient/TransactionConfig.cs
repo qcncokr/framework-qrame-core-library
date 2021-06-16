@@ -32,6 +32,9 @@ namespace Qrame.Core.Library.ApiClient
             public static string SystemInterfaceID = "";
             public static string MachineTypeID = "";
             public static string DataEncryptionYN = "";
+            public static string DataFormat = "J";
+            public static string CryptoCode = "P";
+            public static string CryptoKey = "";
         }
 
         public static class OperatorUser
