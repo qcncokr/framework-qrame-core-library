@@ -406,10 +406,9 @@ namespace Qrame.Core.Library.ApiClient
 			transactionRequest.TH.TRM_BRNO = TransactionConfig.Program.TerminalBranchCode; // "AccessTokenID 발급 기준이 되며, 자산관리ID로 사용가능 [국가번호][지역번호][점번호][단말종류][순번]";
 			transactionRequest.TH.TRN_CD = transactionObject.TransactionID;
 			transactionRequest.TH.TRN_SCRN_CD = transactionObject.ScreenID;
-			transactionRequest.TH.DAT_FMT = string.IsNullOrEmpty(TransactionConfig.Transaction.DataFormat) == true ? "J" : TransactionConfig.Transaction.DataFormat;
+			transactionRequest.TH.DAT_FMT = string.IsNullOrEmpty(TransactionConfig.Transaction.DataFormat) == true ? "J": TransactionConfig.Transaction.DataFormat;
 			transactionRequest.TH.CRYPTO_DSCD = string.IsNullOrEmpty(TransactionConfig.Transaction.CryptoCode) == true ? "P" : TransactionConfig.Transaction.CryptoCode;
 			transactionRequest.TH.CRYPTO_KEY = string.IsNullOrEmpty(TransactionConfig.Transaction.CryptoKey) == true ? "" : TransactionConfig.Transaction.CryptoKey;
-
 
 			transactionRequest.DAT.REQ_TX_MAP_ID = transactionObject.TransactionMapID;
 			transactionRequest.DAT.REQ_INPUT_CNT = transactionObject.InputsItemCount;
