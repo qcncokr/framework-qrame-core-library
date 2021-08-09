@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace Qrame.Core.Library.ApiClient
 {
-    public class TransactionClient : IDisposable
+	public class TransactionClient : IDisposable
 	{
 		private static Dictionary<string, JObject> apiServices = new Dictionary<string, JObject>();
 
@@ -35,7 +35,7 @@ namespace Qrame.Core.Library.ApiClient
 				{
 					Uri uri = new Uri(TransactionConfig.ApiFindUrl + $"?systemID={systemID}&serverType={serverType}");
 					RestClient client = new RestClient(uri);
-					client.Proxy = BypassWebProxy.Default;
+					// client.Proxy = BypassWebProxy.Default;
 					RestRequest apiRequest = new RestRequest(Method.GET);
 					apiRequest.AddHeader("Content-Type", "application/json");
 					apiRequest.AddHeader("cache-control", "no-cache");
@@ -124,7 +124,7 @@ namespace Qrame.Core.Library.ApiClient
 					TransactionRequest transactionRequest = CreateTransactionRequest("REPLY", transactionObject);
 
 					RestClient client = new RestClient(restFulUrl);
-					// client.Proxy = BypassWebProxy.Default;
+					// // client.Proxy = BypassWebProxy.Default;
 					var restRequest = new RestRequest(findService["Path"].ToString(), Method.POST);
 					restRequest.AddJsonBody(transactionRequest);
 
@@ -207,7 +207,7 @@ namespace Qrame.Core.Library.ApiClient
 				TransactionRequest transactionRequest = CreateTransactionRequest("REPLY", transactionObject);
 
 				RestClient client = new RestClient();
-				client.Proxy = BypassWebProxy.Default;
+				// client.Proxy = BypassWebProxy.Default;
 				var restRequest = new RestRequest(businessServerUrl, Method.POST);
 				restRequest.AddJsonBody(transactionRequest);
 
@@ -263,7 +263,7 @@ namespace Qrame.Core.Library.ApiClient
 				TransactionRequest transactionRequest = CreateTransactionRequest("REPLY", transactionObject);
 
 				RestClient client = new RestClient();
-				client.Proxy = BypassWebProxy.Default;
+				// client.Proxy = BypassWebProxy.Default;
 				var restRequest = new RestRequest(businessServerUrl, Method.POST);
 				restRequest.AddJsonBody(transactionRequest);
 
@@ -339,7 +339,7 @@ namespace Qrame.Core.Library.ApiClient
 				TransactionRequest transactionRequest = CreateTransactionRequest("REPLY", transactionObject);
 
 				RestClient client = new RestClient();
-				client.Proxy = BypassWebProxy.Default;
+				// client.Proxy = BypassWebProxy.Default;
 				var restRequest = new RestRequest(businessServerUrl, Method.POST);
 				restRequest.AddJsonBody(transactionRequest);
 
@@ -406,7 +406,7 @@ namespace Qrame.Core.Library.ApiClient
 			transactionRequest.TH.TRM_BRNO = TransactionConfig.Program.TerminalBranchCode; // "AccessTokenID 발급 기준이 되며, 자산관리ID로 사용가능 [국가번호][지역번호][점번호][단말종류][순번]";
 			transactionRequest.TH.TRN_CD = transactionObject.TransactionID;
 			transactionRequest.TH.TRN_SCRN_CD = transactionObject.ScreenID;
-			transactionRequest.TH.DAT_FMT = string.IsNullOrEmpty(TransactionConfig.Transaction.DataFormat) == true ? "J": TransactionConfig.Transaction.DataFormat;
+			transactionRequest.TH.DAT_FMT = string.IsNullOrEmpty(TransactionConfig.Transaction.DataFormat) == true ? "J" : TransactionConfig.Transaction.DataFormat;
 			transactionRequest.TH.CRYPTO_DSCD = string.IsNullOrEmpty(TransactionConfig.Transaction.CryptoCode) == true ? "P" : TransactionConfig.Transaction.CryptoCode;
 			transactionRequest.TH.CRYPTO_KEY = string.IsNullOrEmpty(TransactionConfig.Transaction.CryptoKey) == true ? "" : TransactionConfig.Transaction.CryptoKey;
 
