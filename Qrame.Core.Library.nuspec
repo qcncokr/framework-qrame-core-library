@@ -2,8 +2,8 @@
 <package >
     <metadata>
         <id>Qcn.Qrame.Core.Library</id>
-        <version>$version$</version>
-        <title>$title$</title>
+        <version>1.0.6</version>
+        <title>Qrame.Core.Library</title>
         <authors>qcn</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <license type="expression">MIT</license>

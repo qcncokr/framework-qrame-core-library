@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
 	[XmlRoot(ElementName = "header", Namespace = "contract.xsd")]
 	public class Header

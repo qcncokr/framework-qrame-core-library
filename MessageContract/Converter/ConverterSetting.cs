@@ -3,7 +3,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Qrame.Core.Library.MessageContract.Converter
+namespace Qrame.CoreFX.Library.MessageContract.Converter
 {
     public static class ConverterSetting
     {

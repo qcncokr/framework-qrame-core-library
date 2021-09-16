@@ -3,9 +3,9 @@ using System.Runtime.Serialization;
 using MessagePack;
 
 using Qrame.CoreFX.Messages;
-using Qrame.Core.Library.MessageContract.DataObject;
+using Qrame.CoreFX.Library.MessageContract.DataObject;
 
-namespace Qrame.Core.Library.MessageContract.Message
+namespace Qrame.CoreFX.Library.MessageContract.Message
 {
     /// <summary>
     /// Repository 서비스 응답 메시지 객체입니다.

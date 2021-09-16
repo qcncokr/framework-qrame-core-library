@@ -1,11 +1,11 @@
-﻿using Qrame.Core.Library.MessageContract.Contract;
-using Qrame.Core.Library.MessageContract.DataObject;
+﻿using Qrame.CoreFX.Library.MessageContract.Contract;
+using Qrame.CoreFX.Library.MessageContract.DataObject;
 
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.Serialization;
 
-namespace Qrame.Core.Library.MessageContract.Message
+namespace Qrame.CoreFX.Library.MessageContract.Message
 {
     [DataContract]
     public partial class TransactionRequest : MessagePackRequestBase

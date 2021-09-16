@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Qrame.Core.Library.Common
+namespace Qrame.CoreFX.Library.Common
 {
     public class Arguments
     {

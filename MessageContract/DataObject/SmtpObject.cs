@@ -1,10 +1,10 @@
 ﻿using MessagePack;
 
-using Qrame.Core.Library.MessageContract.Enumeration;
+using Qrame.CoreFX.Library.MessageContract.Enumeration;
 
 using System.Collections.Generic;
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
     /// <summary>
     /// Smtp 메일 발송을 위한 구성 객체입니다.

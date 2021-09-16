@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Data;
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
     public class ResponseCodeObject
     {

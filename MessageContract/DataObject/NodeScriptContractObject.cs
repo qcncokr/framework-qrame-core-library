@@ -1,15 +1,15 @@
 ﻿using Newtonsoft.Json;
 
-using Qrame.Core.Library.MessageContract.Converter;
+using Qrame.CoreFX.Library.MessageContract.Converter;
 
 using System;
 using System.Collections.Generic;
 
 
-//    using Qrame.Core.Library.Contract;
+//    using Qrame.CoreFX.Library.Contract;
 //    var nodeScriptContract = NodeScriptContract.FromJson(jsonString);
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
     public partial class NodeScriptContract
     {

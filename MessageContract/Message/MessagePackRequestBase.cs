@@ -5,7 +5,7 @@ using System.Text;
 using MessagePack;
 using Qrame.CoreFX.Messages;
 
-namespace Qrame.Core.Library.MessageContract.Message
+namespace Qrame.CoreFX.Library.MessageContract.Message
 {
 	/// <summary>
 	/// 요청에 대한 베이스 기능을 제공합니다.

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
 	public partial class BearerToken
     {

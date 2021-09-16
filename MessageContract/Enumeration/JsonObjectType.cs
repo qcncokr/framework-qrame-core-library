@@ -1,4 +1,4 @@
-﻿namespace Qrame.Core.Library.MessageContract.Enumeration
+﻿namespace Qrame.CoreFX.Library.MessageContract.Enumeration
 {
     /// <summary>
     /// JSON 포맷 변환 열거자입니다.

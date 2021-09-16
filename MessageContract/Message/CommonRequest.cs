@@ -1,13 +1,13 @@
 ﻿using MessagePack;
 
-using Qrame.Core.Library.MessageContract.DataObject;
-using Qrame.Core.Library.MessageContract.Enumeration;
+using Qrame.CoreFX.Library.MessageContract.DataObject;
+using Qrame.CoreFX.Library.MessageContract.Enumeration;
 using Qrame.CoreFX.Messages;
 
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 
-namespace Qrame.Core.Library.MessageContract.Message
+namespace Qrame.CoreFX.Library.MessageContract.Message
 {
     /// <summary>
     /// 데이터베이스 명령 메시지에 필요한 구성 객체입니다.

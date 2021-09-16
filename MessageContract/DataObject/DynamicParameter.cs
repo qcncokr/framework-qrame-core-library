@@ -2,7 +2,7 @@
 
 using MessagePack;
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
     /// <summary>
     /// 명령문의 매개변수 구조를 표현하는 객체입니다.

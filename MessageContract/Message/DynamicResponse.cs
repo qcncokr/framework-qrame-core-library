@@ -5,7 +5,7 @@ using MessagePack;
 
 using Qrame.CoreFX.Messages;
 
-namespace Qrame.Core.Library.MessageContract.Message
+namespace Qrame.CoreFX.Library.MessageContract.Message
 {
 	/// <summary>
 	/// 데이터베이스 명령 서비스 응답 메시지 객체입니다.

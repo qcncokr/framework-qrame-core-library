@@ -1,11 +1,11 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-using Qrame.Core.Library.MessageContract.Message;
+using Qrame.CoreFX.Library.MessageContract.Message;
 
 using System.Globalization;
 
-namespace Qrame.Core.Library
+namespace Qrame.CoreFX.Library
 {
     public static class DataPersistence
     {

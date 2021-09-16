@@ -1,4 +1,4 @@
-﻿namespace Qrame.Core.Library.MessageContract.Enumeration
+﻿namespace Qrame.CoreFX.Library.MessageContract.Enumeration
 {
     /// <summary>
     /// 명령문에 대한 구분입니다.

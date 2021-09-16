@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Qrame.Core.Library.Logger
+namespace Qrame.CoreFX.Library.Logger
 {
 	public struct LogMessage
 	{

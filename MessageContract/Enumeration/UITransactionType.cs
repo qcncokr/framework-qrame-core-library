@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Qrame.Core.Library.MessageContract.Enumeration
+namespace Qrame.CoreFX.Library.MessageContract.Enumeration
 {
 	public enum TransactionRequestType
 	{

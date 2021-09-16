@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using MessagePack;
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
     /// <summary>
     /// Repository 명령을 구성하는 객체입니다.

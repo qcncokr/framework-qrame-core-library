@@ -6,7 +6,7 @@ using Qrame.CoreFX.DataModel;
 using Qrame.CoreFX.DataModel.Rules;
 using Qrame.CoreFX.ExtensionMethod;
 
-namespace Qrame.Core.Library.MessageContract.Entitie
+namespace Qrame.CoreFX.Library.MessageContract.Entitie
 {
     /// <summary>
     /// Repository을 표현하는 엔티티 모델입니다.

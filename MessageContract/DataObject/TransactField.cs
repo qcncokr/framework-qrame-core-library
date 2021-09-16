@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
     [Serializable]
     public class TransactField

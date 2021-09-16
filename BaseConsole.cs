@@ -2,8 +2,8 @@ using Microsoft.Extensions.CommandLineUtils;
 
 using Newtonsoft.Json;
 
-using Qrame.Core.Library.MessageContract.DataObject;
-using Qrame.Core.Library.MessageContract.Message;
+using Qrame.CoreFX.Library.MessageContract.DataObject;
+using Qrame.CoreFX.Library.MessageContract.Message;
 using Qrame.CoreFX.ExtensionMethod;
 
 using System;
@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 
-namespace Qrame.Core.Library
+namespace Qrame.CoreFX.Library
 {
     public class BaseConsole
     {

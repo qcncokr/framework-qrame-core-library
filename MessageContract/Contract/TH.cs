@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.Serialization;
 
-namespace Qrame.Core.Library.MessageContract.Contract
+namespace Qrame.CoreFX.Library.MessageContract.Contract
 {
     [DataContract(Namespace = "http://www.tempuri.com/types/")]
     public partial class TH

@@ -3,7 +3,7 @@ using System.Data;
 using System.Runtime.Serialization;
 using Qrame.CoreFX.Messages;
 
-namespace Qrame.Core.Library.MessageContract.Message
+namespace Qrame.CoreFX.Library.MessageContract.Message
 {
     [DataContract]
     public class ApplicationResponse

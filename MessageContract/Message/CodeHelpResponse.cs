@@ -4,7 +4,7 @@ using MessagePack;
 
 using Qrame.CoreFX.Messages;
 
-namespace Qrame.Core.Library.MessageContract.Message
+namespace Qrame.CoreFX.Library.MessageContract.Message
 {
     /// <summary>
     /// 코드헬프 서비스 응답 메시지 객체입니다.

@@ -1,4 +1,4 @@
-﻿namespace Qrame.Core.Library.MessageContract.DataObject
+﻿namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
     /// <summary>
     /// RESTful WCF 호출시 응답 서비스 객체입니다.

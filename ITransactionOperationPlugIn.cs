@@ -1,11 +1,11 @@
-﻿using Qrame.Core.Library.MessageContract.DataObject;
-using Qrame.Core.Library.MessageContract.Message;
+﻿using Qrame.CoreFX.Library.MessageContract.DataObject;
+using Qrame.CoreFX.Library.MessageContract.Message;
 using Qrame.CoreFX.ObjectController;
 
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Qrame.Core.Library
+namespace Qrame.CoreFX.Library
 {
     public interface ITransactionResponsePlugIn : IPlugIn
     {

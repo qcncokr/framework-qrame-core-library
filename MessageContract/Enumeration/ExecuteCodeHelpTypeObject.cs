@@ -1,4 +1,4 @@
-﻿namespace Qrame.Core.Library.MessageContract.Enumeration
+﻿namespace Qrame.CoreFX.Library.MessageContract.Enumeration
 {
     /// <summary>
     /// ExecuteCodeHelp 메서드의 결과 타입 열거자입니다.

@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.NetworkInformation;
 using System.Text;
 
-namespace Qrame.Core.Library.ApiClient
+namespace Qrame.CoreFX.Library.ApiClient
 {
     public static class TransactionConfig
     {

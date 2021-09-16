@@ -1,9 +1,9 @@
-﻿using Qrame.Core.Library.MessageContract.Message;
+﻿using Qrame.CoreFX.Library.MessageContract.Message;
 
 using System;
 using System.Collections.Generic;
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
     /// <summary>
     /// RESTful WCF 호출시 명령을 제어하기 위한 서비스 객체입니다.

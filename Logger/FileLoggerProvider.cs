@@ -1,5 +1,5 @@
 ﻿
-using Qrame.Core.Library.Logger;
+using Qrame.CoreFX.Library.Logger;
 
 using System;
 using System.Collections.Concurrent;

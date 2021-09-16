@@ -4,7 +4,7 @@ using System.Linq;
 using System.Data;
 using System.Text;
 
-namespace Qrame.Core.Library.GenerateTable
+namespace Qrame.CoreFX.Library.GenerateTable
 {
     internal class SqlServerScript
     {

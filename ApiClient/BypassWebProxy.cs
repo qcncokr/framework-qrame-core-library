@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace Qrame.Core.Library.ApiClient
+namespace Qrame.CoreFX.Library.ApiClient
 {
     public class BypassWebProxy : IWebProxy
     {

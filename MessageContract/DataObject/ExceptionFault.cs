@@ -1,6 +1,6 @@
 ﻿using MessagePack;
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
     /// <summary>
     /// 응용 프로그램을 실행할 때 나타나는 오류에 대한 WCF Fault를 재 정의하는 클래스입니다.

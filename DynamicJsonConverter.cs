@@ -1,3 +1,3 @@
-﻿namespace Qrame.Core.Library
+﻿namespace Qrame.CoreFX.Library
 {
 }

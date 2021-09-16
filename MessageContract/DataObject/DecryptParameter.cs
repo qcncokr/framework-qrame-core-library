@@ -1,6 +1,6 @@
 ﻿using MessagePack;
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
     [MessagePackObject]
     public class DecryptParameter

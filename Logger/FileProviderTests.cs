@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Threading;
 using System.IO;
 
-namespace Qrame.Core.Library.Tests
+namespace Qrame.CoreFX.Library.Tests
 {
 
 	public class FileProviderTests {

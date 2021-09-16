@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
 
-using Qrame.Core.Library.MessageContract.DataObject;
+using Qrame.CoreFX.Library.MessageContract.DataObject;
 
 using System;
 
-namespace Qrame.Core.Library.MessageContract.Converter
+namespace Qrame.CoreFX.Library.MessageContract.Converter
 {
     public class TestValueConverter : JsonConverter
     {

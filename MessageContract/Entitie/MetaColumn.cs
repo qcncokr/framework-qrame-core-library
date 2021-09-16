@@ -1,4 +1,4 @@
-﻿namespace Qrame.Core.Library.MessageContract.Entitie
+﻿namespace Qrame.CoreFX.Library.MessageContract.Entitie
 {
     public partial class MetaColumn
     {

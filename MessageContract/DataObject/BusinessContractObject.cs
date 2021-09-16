@@ -1,14 +1,14 @@
 using Newtonsoft.Json;
 
-using Qrame.Core.Library.MessageContract.Converter;
+using Qrame.CoreFX.Library.MessageContract.Converter;
 
 using System;
 using System.Collections.Generic;
 
-//    using Qrame.Core.Library.Contract;
+//    using Qrame.CoreFX.Library.Contract;
 //    var businessContract = BusinessContract.FromJson(jsonString);
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
     // 업무 프로토콜 (Transact Request / Response와 매핑 작업 필요)
     public class BusinessContract

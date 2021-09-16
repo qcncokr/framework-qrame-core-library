@@ -1,4 +1,4 @@
-﻿namespace Qrame.Core.Library.MessageContract.Enumeration
+﻿namespace Qrame.CoreFX.Library.MessageContract.Enumeration
 {
     /// <summary>
     /// 메일 수신자 그룹입니다.

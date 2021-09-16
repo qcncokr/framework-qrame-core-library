@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Qrame.Core.Library.GenerateTable
+namespace Qrame.CoreFX.Library.GenerateTable
 {   
     public class JsonToSQL
     {

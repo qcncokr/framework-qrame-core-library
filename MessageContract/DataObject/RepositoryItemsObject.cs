@@ -2,7 +2,7 @@
 
 using MessagePack;
 
-namespace Qrame.Core.Library.MessageContract.DataObject
+namespace Qrame.CoreFX.Library.MessageContract.DataObject
 {
     /// <summary>
     /// RepositoryItems을 구성하는 객체입니다.

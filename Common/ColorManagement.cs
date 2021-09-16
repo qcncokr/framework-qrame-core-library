@@ -5,7 +5,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Reflection;
 
-namespace Qrame.Core.Library.Common
+namespace Qrame.CoreFX.Library.Common
 {
     public static class ColorManagement
     {

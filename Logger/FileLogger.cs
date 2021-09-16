@@ -3,7 +3,7 @@
 using System;
 using System.Text;
 
-namespace Qrame.Core.Library.Logger
+namespace Qrame.CoreFX.Library.Logger
 {
 	public class FileLogger : ILogger
 	{

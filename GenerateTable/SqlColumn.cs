@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Qrame.Core.Library.GenerateTable
+namespace Qrame.CoreFX.Library.GenerateTable
 {
     internal class SqlColumn
     {

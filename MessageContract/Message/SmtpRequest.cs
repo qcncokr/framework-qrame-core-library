@@ -3,9 +3,9 @@ using System.Runtime.Serialization;
 using MessagePack;
 
 using Qrame.CoreFX.Messages;
-using Qrame.Core.Library.MessageContract.DataObject;
+using Qrame.CoreFX.Library.MessageContract.DataObject;
 
-namespace Qrame.Core.Library.MessageContract.Message
+namespace Qrame.CoreFX.Library.MessageContract.Message
 {
     /// <summary>
     /// Smtp 메일 발송 메시지에 필요한 구성 객체입니다.
